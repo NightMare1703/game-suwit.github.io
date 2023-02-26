@@ -13,7 +13,15 @@ function random(){
     console.log(gambar[0]);
 };
 
-
+function random(){
+    const gambar = ['gunting', 'batu', 'kertas'];
+    for(let i = 0; i < 3; i++){
+        if(i == 3){
+            i = 0;
+        };
+        console.log(gambar[i]);
+    };
+};
 
 function getHasil(computer, player) {
     if (player == computer) return 'SERI!';

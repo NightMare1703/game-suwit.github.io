@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body{
+    height: 100%;
+    background-color: aqua;
+}
+
+/* computer start*/
+.computer{
+    margin-top: 20px;
+    rotate: 180deg;
+    display: flex;
+    justify-content: center;
+}
+
+.computerMemilih {
+    border: solid white 6px;
+    border-radius: 125px;
+    width: 200px;
+    height: 200px;
+}
+/* computer end */
+
+/* description start */
+
+.keterangan{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    margin-top: 50px ;
+    display: flex;
+    justify-content: center;
+    border: solid 5px white;
+    background-color: antiquewhite;
+    color: rgb(96, 96, 96);
+}
+
+
+/* player start*/
+
+.gunting {
+    border: solid white 3px;
+    border-radius: 25px;
+    display: inline;
+    margin-right: 40px;
+    height: 50px;
+    width: 50px;
+}
+
+.batu {
+    border: solid white 3px;
+    border-radius: 25px;
+    display: inline;
+    margin-right: 40px;
+    height: 50px;
+    width: 50px;
+}
+
+.kertas {
+    border: solid white 3px;
+    border-radius: 25px;
+    display: inline;
+    height: 50px;
+    width: 50px;
+}
+
+.pilihanPlayer {
+    /* background-color: blue; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.memilih {
+    display: flex;
+    justify-content: center;
+}
+
+.gambarDipilih {
+    border: solid white 6px;
+    border-radius: 125px;
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+}
+/* player end */

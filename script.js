@@ -7,11 +7,6 @@ function com() {
     return 'kertas';
 };
 
-function random(){
-    const gambar = ['batu', 'gunting', 'kertas'];
-    for(let i = 0; i <=gambar.length; i++)
-    console.log(gambar[0]);
-};
 
 function random(){
     const gambar = ['gunting', 'batu', 'kertas'];
